@@ -30,4 +30,12 @@ A machine learning web application that predicts future stock prices using LSTM 
 git clone https://github.com/your-username/stock-price-predictor.git
 cd stock-price-predictor
 
-# Create virtual environme
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate      # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
