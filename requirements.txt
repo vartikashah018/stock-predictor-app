@@ -5,4 +5,4 @@ numpy
 scikit-learn
 matplotlib
 keras
-tensorflow
+tensorflow==2.12.0
